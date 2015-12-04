@@ -1,0 +1,17 @@
+.killdos-widget
+{
+	height: 360px;
+}
+.col-lg-4
+{
+	padding: 10px;	
+}
+.vcenter {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vcenter-widget {
+	 display: table;
+    height: 280px;
+    width: 100%;
+}
