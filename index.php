@@ -54,7 +54,7 @@
 	    <script src="http://code.jquery.com/jquery-latest.js"></script>
 	    <script src="/js/jquery.color-2.1.2.js"></script>
 	    <script>
-			var socket = io('http://moicle.com:1011');
+			var socket = io(window.location.host+':1011');
 			socket.on("onInsert",function(data)
 			{
 				console.log(data);
